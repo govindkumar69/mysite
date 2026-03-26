@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Clean Webpage</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: Arial, sans-serif;
+    }
+
+    body {
+      background: #f5f7fa;
+      color: #333;
+    }
+
+    /* Navbar */
+    header {
+      background: white;
+      padding: 15px 40px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+
+    header h1 {
+      font-size: 20px;
+    }
+
+    nav a {
+      margin-left: 20px;
+      text-decoration: none;
+      color: #555;
+      font-weight: 500;
+    }
+
+    nav a:hover {
+      color: #000;
+    }
+
+    /* Hero */
+    .hero {
+      text-align: center;
+      padding: 80px 20px;
+    }
+
+    .hero h2 {
+      font-size: 36px;
+      margin-bottom: 10px;
+    }
+
+    .hero p {
+      color: #666;
+      margin-bottom: 20px;
+    }
+
+    .hero button {
+      padding: 10px 20px;
+      border: none;
+      background: #000;
+      color: white;
+      cursor: pointer;
+      border-radius: 5px;
+    }
+
+    /* Cards */
+    .container {
+      padding: 40px;
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+    }
+
+    .card {
+      background: white;
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+    }
+
+    .card h3 {
+      margin-bottom: 10px;
+    }
+
+    .card p {
+      color: #666;
+    }
+
+    /* Footer */
+    footer {
+      text-align: center;
+      padding: 20px;
+      background: white;
+      margin-top: 40px;
+      font-size: 14px;
+      color: #888;
+    }
+  </style>
+</head>
+
+<body>
+
+  <!-- Navbar -->
+  <header>
+    <h1>MySite</h1>
+    <nav>
+      <a href="#">Home</a>
+      <a href="#">Features</a>
+      <a href="#">Contact</a>
+    </nav>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <h2>Simple & Clean Design</h2>
+    <p>Build modern websites with minimal effort.</p>
+    <button>Get Started</button>
+  </section>
+
+  <!-- Cards -->
+  <section class="container">
+    <div class="card">
+      <h3>Fast</h3>
+      <p>Optimized for speed and performance.</p>
+    </div>
+
+    <div class="card">
+      <h3>Responsive</h3>
+      <p>Works perfectly on all devices.</p>
+    </div>
+
+    <div class="card">
+      <h3>Modern</h3>
+      <p>Clean and professional design.</p>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    © 2026 MySite. All rights reserved.
+  </footer>
+
+</body>
+</html>
